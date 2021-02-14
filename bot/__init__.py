@@ -9,11 +9,11 @@ CONFIG = Config({
     'WORKDIR' : 'sessions',
     'LOG_FILE' : 'log.txt',
     'MAX_LOG_SIZE' : 10 * 1024 * 1024,
-    'API_HASH' : None,
-    'API_ID' : None,
-    'BOT_TOKEN' : None,
+    'API_HASH' : 5fbc91808465973dcd79340baa8ee3e0,
+    'API_ID' : 2403946,
+    'BOT_TOKEN' : 1604374441:AAEAsAZgA0UCPDR-2xI7T59MLVkyzCjeAE8,
     'BOT_PASSWORD' : None,
-    'CHAT_ID' : '',
+    'CHAT_ID' : '-1001468848929',
     'EDIT_SLEEP' : 3,
     'UPLOAD_MAX_SIZE' : 2000 * 1024 * 1024,
     'UPLOAD_AS_DOC' : 0,
@@ -79,15 +79,15 @@ LOCAL = __import__(name = 'bot.locals.' + CONFIG.LOCAL, fromlist = ['LOCAL']).LO
 COMMAND = Config({
     'START' : 'start',
     'PASSWORD' : 'pass',
-    'HELP' : 'help',
-    'LEECH' : 'leech',
-    'CANCEL_LEECH' : 'cancel',
-    'LEECH_LIST' : 'list',
-    'UPLOAD_AS_DOC' : 'upload_as_doc',
-    'UPLOAD_AS_ZIP' : 'upload_as_zip',
-    'SET_THUMBNAIL' : 'set_thumbnail',
-    'RESET_THUMBNAIL' : 'reset_thumbnail',
-    'SET_TRACKER' : 'set_tracker'
+    'HELP' : 'help@kratosleechbot',
+    'LEECH' : 'leech@kratosleechbot',
+    'CANCEL_LEECH' : 'cancel@kratosleechbot',
+    'LEECH_LIST' : 'list@kratosleechbot',
+    'UPLOAD_AS_DOC' : 'upload_as_doc@kratosleechbot',
+    'UPLOAD_AS_ZIP' : 'upload_as_zip@kratosleechbot',
+    'SET_THUMBNAIL' : 'set_thumbnail@kratosleechbot',
+    'RESET_THUMBNAIL' : 'reset_thumbnail@kratosleechbot',
+    'SET_TRACKER' : 'set_tracker@kratosleechbot'
 }, 'COMMAND_')
 
 # GOAL:
